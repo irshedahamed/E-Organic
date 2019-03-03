@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shs.farmer">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/farmer_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/farmer_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Former_InsertItem" />
+        <activity android:name=".Former_Login" />
+        <activity android:name=".Former_Registration" />
+        <activity android:name=".User_Registration" />
+        <activity android:name=".User_category" />
+        <activity android:name=".Fruits" />
+        <activity android:name=".Vegetable" />
+        <activity android:name=".Greens" />
+        <activity android:name=".Tubers" />
+        <activity android:name=".Pulses" />
+        <activity android:name=".First_foods" />
+        <activity android:name=".View_Inserted" />
+        <activity android:name=".View_Farmlist"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Farmer</string>
+    <string name="selectcategory">Select Category</string>string>
+    <string-array name="category">
+        <item>First fruits</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Greens</item>
+        <item>Tubers</item>
+        <item>Pulses</item>
+    </string-array>
+</resources>
